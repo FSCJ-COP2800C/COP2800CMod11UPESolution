@@ -27,7 +27,8 @@ public class Astronaut {
     @Override
     public String toString() {
         DecimalFormat decFormatter = new DecimalFormat(".#");
-        DateTimeFormatter dtFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        DateTimeFormatter dtFormatter = 
+            DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         
         return "name: " + name + "\n" + 
                "height: " + decFormatter.format(heightCm) + " (cm)\n" +

@@ -25,7 +25,8 @@ public class Starship {
     public static void main(String[] args) {
     
         // create a space station and display it
-        Starship ss = new Starship("SN15", 4989516.07 /* base weight: 11M lbs*/);
+        Starship ss = 
+            new Starship("SN15", 4989516.07 /* base weight: 11M lbs*/);
         System.out.println(ss);
 
         // add some astronauts
@@ -38,8 +39,8 @@ public class Starship {
         // Crew 5: https://blogs.nasa.gov/crew-5/
         // Crew-6: https://blogs.nasa.gov/crew-6/
         
-        // "In general, astronauts should weigh between 50 and 95 kilograms (110 and 209 pounds) 
-        // " and measure between 149.5cm and 190.5cm."
+        // "In general, astronauts should weigh between 50 and 95 kilograms 
+        // (110 and 209 pounds) and measure between 149.5cm and 190.5cm."
         // https://nypost.com/2022/02/13/what-does-it-take-to-be-a-nasa-astronaut/
         
         final double MIN_WT = 50, MAX_WT = 95; // cm
